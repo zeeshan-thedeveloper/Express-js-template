@@ -1,0 +1,25 @@
+{
+  "name": "Streams-NodeJs",
+  "version": "1.0.0",
+  "description": "This example shows how the streams are used to get data from server in chunks rather then complete.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeeshan-thedeveloper/Streams-NodeJs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeeshan-thedeveloper/Streams-NodeJs/issues"
+  },
+  "homepage": "https://github.com/zeeshan-thedeveloper/Streams-NodeJs#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
