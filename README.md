@@ -1,2 +1,2 @@
 # Express-js
-This is basic template we need for a simple application
+This template will be usefull to create an express js application.
