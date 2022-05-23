@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-
 var Schema = mongoose.Schema
 var ObjectId = Schema.ObjectId;
 
@@ -59,5 +58,5 @@ const Quiz = new mongoose.Schema({
 const User = mongoose.model("User", UserSchema);
 const Quizez = mongoose.model("Quizez", Quiz);
 const ScoreList = mongoose.model("ScoreList", Scores);
-
-module.exports = {User,Quizez,ScoreList};
+ 
+  module.exports = {User,Quizez,ScoreList};

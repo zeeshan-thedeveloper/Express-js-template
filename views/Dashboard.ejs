@@ -12,9 +12,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Welcome Mr/Miss <%=fistName%> </h1>
+    <h2>Welcome <%=fistName%> </h2>
     <div>
-        <h3>Other Players Scores</h3>
+        <h5>Other Players Scores</h5>
     </div>
      <div  style="text-align:center;border:1px solid;padding: 1rem;height: 20rem;overflow-y: scroll; background-color:wheat">
         <%
@@ -27,14 +27,19 @@
         %>
         <%-temp %>
      </div>
-     <div style="position: relative; margin-top:1rem;padding: 2rem;">
-         <div style="position: absolute;left:10px">
+     <div style="text-align:center; margin-top:1rem;padding: 2rem;">
+         <div>
              <button type="button" class="btn btn-dark">Play Quiz</button>
          </div>
-         <div style="position: absolute;right:10px">
-            <button type="button"  class="btn btn-dark">Add New Questions</button>
+         <div style="margin-top: 10px;">
+            <!-- <button type="button"  class="btn btn-dark">Add New Questions</button> -->
+            <a href="<%=link_addnewquestion%>">Add New Question</a>
         </div>
+        <div style="margin-top: 10px;">
+            <!-- <button type="button"  class="btn btn-dark">Add New Questions</button> -->
+            <a href="<%=link_viewallquestions%>">View All Questions</a>
+        </div>
+        
      </div>
-
 </body>
 </html>

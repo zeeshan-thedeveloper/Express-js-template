@@ -1,6 +1,4 @@
 const mongoose = require("mongoose");
-
-
 mongoose.connect(
   `mongodb+srv://zeeshan:zeeshan@sandbox.ry9p3.mongodb.net/?retryWrites=true&w=majority`, 
   {

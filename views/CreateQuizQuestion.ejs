@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/css/CreateQuizQuestion.css"/>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      
+      <div class="text-center mt-5">
+        <h1>Add a question</h1>
+      </div>
+      
+      <div class="row">
+        <div class="col-lg-7 mx-auto">
+          <div class="card mt-2 mx-auto p-4 bg-light">
+            <div class="card-body bg-light">
+              <div class="container">
+                <form id="contact-form" role="form" method="post" action="<%=link%>">
+                  <div class="controls">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                          <label for="form_message">Question</label>
+                          <textarea
+                            id="question"
+                            name="message"
+                            class="form-control"
+                            placeholder="Write your question here."
+                            rows="4"
+                            required="required"
+                            data-error="Please, put a question."
+                          ></textarea>
+                        </div>
+                      </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="option_A">Option A</label>
+                          <input
+                            id="option_A"
+                            type="text"
+                            name="options"
+                            class="form-control"    
+                            placeholder="Option A"
+                            required="required"
+                            data-error="Firstname is required."
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="option_B">Option B</label>
+                            <input
+                              id="option_B"
+                              type="text"
+                              name="options"
+                              class="form-control"
+                              placeholder="Option B"
+                              required="required"
+                              data-error="Firstname is required."
+                            />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="option_C">Option C</label>
+                            <input
+                              id="option_C"
+                              type="text"
+                              name="options"
+                              class="form-control"
+                              placeholder="Option C"
+                              required="required"
+                              data-error="Firstname is required."
+                            />
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="option_D">Option D</label>
+                            <input
+                              id="option_D"
+                              type="text"
+                              name="options"
+                              class="form-control"
+                              placeholder="Option D"
+                              required="required"
+                              data-error="Firstname is required."
+                            />
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="option_D">Right Asnwer</label>
+                            <input
+                              id="RightAnswer"
+                              type="text"
+                              name="right_answer"
+                              class="form-control"
+                              placeholder="RightAnswer"
+                              required="required"
+                              data-error="Firstname is required."
+                            />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      
+
+                      <div class="col-md-12 mt-3">
+                        <input
+                          type="submit"
+                          class="btn btn-success btn-send pt-2 btn-block"
+                          value="Add Message"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- /.8 -->
+        </div>
+        <!-- /.row-->
+      </div>
+    </div>
+  </body>
+</html>
